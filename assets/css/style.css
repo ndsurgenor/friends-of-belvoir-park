@@ -62,10 +62,24 @@ nav ul li {
     border-bottom: 1px solid;
 }
 
-/* hero image */
+/* hero image and animation */
 
 #hero-image {
-    background: url('../images/hero-image.jpg') no-repeat bottom center; 
+    background: url('../images/hero-image.jpg') no-repeat top center; 
     width: 100%;
-    height: 500px;    
+    height: 500px;
+    animation: hero-pan;
+    animation-delay: 500ms;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hero-pan {
+    from{
+        background-position: top;
+    }
+
+    to{
+        background-position: bottom;
+    }
 }

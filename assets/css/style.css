@@ -32,7 +32,7 @@ h1, h2 {
 
 #title i {
     color: #707e4e;
-    font-size:75%;
+    font-size:70%;
     margin-right: 5px;
 }
 
@@ -99,6 +99,15 @@ nav ul li {
     height: 125px;
     padding: 25px 25px 0;
     position: absolute;
-    bottom: 65px;
-    right: 65px;
+    bottom: 45px;
+    right: 55px;
+}
+
+/* why join us? */
+
+#why-join-header {
+    font-size: 275%;
+    text-align: center;
+    letter-spacing: -3px;
+    padding-top: 25px;
 }

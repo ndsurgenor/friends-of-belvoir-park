@@ -1,11 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Source+Sans+Pro:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Source+Sans+Pro:wght@400&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+    
 body {
     font-family: Source Sans Pro, sans-serif;
     font-weight: 400;
+    color: #252525;
 }
 
-h1, h2 {
-    font-family: Montserrat, sans-serif;
-    font-weight: 600
+/* headings */
+
+h1, h2, h3 {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+}
+
+h1 {
+    color: #366340;
+    text-align: center;
+    font-size: 300%;
+}
+
+nav {
+    text-align: center;
+    list-style: none;
 }

@@ -113,7 +113,7 @@ nav ul li {
 
 #why-join-section div div {
     width: 25%;
-    height: 300px;
+    height: 250px;
     float: left;
 }
 
@@ -122,17 +122,26 @@ nav ul li {
     text-align: center;
     text-transform: capitalize;
     letter-spacing: -3px;
-    padding: 25px 0px 50px;
+    padding: 30px 0px 40px;
 }
 
 .why-join-text h3 {
     font-size: 175%;
     text-align: center;
-    border-bottom: 1.5px solid;
+    padding-top: 15px;
 }
 
 .why-join-text i {
     color: #35503b;
     font-size: 85%;
     padding-right: 8px;
+}
+
+.why-join-image {
+    overflow: hidden
+}
+
+.why-join-image img {
+    max-width: 100%;
+    display: block;
 }

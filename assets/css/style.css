@@ -158,11 +158,11 @@ nav ul li {
     width: 75%;
 }
 
-.why-join-top hr {
+#why-join-top hr {
     float: right;
 }
 
-.why-join-bottom hr {
+#why-join-bottom hr {
     float: left;
 }
 

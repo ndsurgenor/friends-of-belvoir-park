@@ -11,7 +11,7 @@
 body {
     font-family: Poppins, sans-serif;
     font-weight: 300;
-    color: #252525;
+    color: #2c2c2c;
 }
 
 h1, h2 {
@@ -76,7 +76,7 @@ nav ul li {
 }
 
 #hero-image {
-    background: url('../images/hero-image.jpg') no-repeat bottom center; 
+    background: url('../images/hero-image.jpg') no-repeat top center; 
     width: 100%;
     height: 500px;
     animation: hero-pan;
@@ -87,11 +87,11 @@ nav ul li {
 
 @keyframes hero-pan {
     from{
-        background-position: bottom;
+        background-position: top;
     }
 
     to{
-        background-position: top;
+        background-position: bottom;
     }
 }
 
@@ -134,7 +134,26 @@ nav ul li {
 .why-join-text i {
     color: #35503b;
     font-size: 85%;
-    padding-right: 5px;
+    padding: 0px 5px;
+}
+
+.why-join-text hr {
+    border: 1px dashed #707e4e;
+    width: 75%;
+}
+
+.why-join-top hr {
+    float: right;
+}
+
+.why-join-bottom hr {
+    float: left;
+}
+
+.why-join-text p {
+    font-size: 110%;
+    text-align: center;
+    padding: 20px 15px;
 }
 
 .why-join-image {

@@ -134,14 +134,15 @@ nav ul li {
 .why-join-text i {
     color: #35503b;
     font-size: 85%;
-    padding-right: 8px;
+    padding-right: 5px;
 }
 
 .why-join-image {
-    overflow: hidden
+    overflow: hidden;
+    display: flex;
+    align-items: center;
 }
 
 .why-join-image img {
     max-width: 100%;
-    display: block;
 }

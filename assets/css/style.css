@@ -165,3 +165,26 @@ nav ul li {
 .why-join-image img {
     max-width: 100%;
 }
+
+/* continue exploring section */
+
+#continue-section div {
+    text-align: center;
+    height: 200px;
+    float: left;
+}
+
+.continue-spacing {
+    width: 16%;
+}
+
+.continue-text {
+    width: 26%;
+}
+
+#continue-section h2 {
+    font-size: 250%;
+    text-align: center;
+    letter-spacing: -3px;
+    padding: 50px 0px 40px;
+}

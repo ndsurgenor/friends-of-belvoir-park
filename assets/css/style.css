@@ -181,7 +181,13 @@ nav ul li {
 #continue-section div {
     text-align: center;
     height: 300px;
-    float: left;
+    float: left;    
+}
+
+#continue-section hr {
+    border-bottom: 2px solid #707e4e;
+    width: 100%;
+    padding-top: 50px;
 }
 
 .continue-spacing {
@@ -195,8 +201,14 @@ nav ul li {
 /* continue exploring text elements */
 
 #continue-section h2 {
-    font-size: 250%;
+    font-size: 225%;
     text-align: center;
     letter-spacing: -3px;
-    padding: 50px 0px 40px;
+    padding: 35px 0px 20px;
+}
+
+#continue-section p {
+    font-size: 120%;
+    text-decoration: none;
+    padding: 0px 50px;
 }

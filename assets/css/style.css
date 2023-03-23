@@ -209,6 +209,16 @@ nav ul li {
 
 #continue-section p {
     font-size: 120%;
-    text-decoration: none;
     padding: 0px 50px;
+}
+
+#continue-section a {
+    color: #35503b;
+    text-decoration: underline;
+}
+
+#continue-section a:hover {
+    color: #f5f5f5;
+    background-color: #707e4e;
+    text-decoration: none;
 }

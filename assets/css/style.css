@@ -19,7 +19,7 @@ h1, h2 {
     font-weight: 600;
 }
 
-/* title and logo */
+/* title */
 
 #title {
     color: #35503b;
@@ -34,6 +34,8 @@ h1, h2 {
     color: inherit;
     text-decoration: none;
 }
+
+/* logos */
 
 #title i {
     color: #707e4e;
@@ -59,6 +61,8 @@ nav ul li {
     margin-right: 25px;
 }
 
+/* navigation bar links*/
+
 .nav-links, .active {
     color: inherit;
     text-decoration: none;
@@ -69,7 +73,7 @@ nav ul li {
     border-bottom: 1px solid;
 }
 
-/* hero image and cover text */
+/* hero image */
 
 #hero-section {
     position: relative;
@@ -95,6 +99,8 @@ nav ul li {
     }
 }
 
+/* cover text */
+
 #hero-cover-text {
     color: #f5f5f5;
     background-color: #707e4ed0;
@@ -117,6 +123,8 @@ nav ul li {
     float: left;
 }
 
+/* why join us? text elements */
+
 #why-join-header {
     font-size: 275%;
     text-align: center;
@@ -137,6 +145,14 @@ nav ul li {
     padding: 0px 5px;
 }
 
+.why-join-text p {
+    font-size: 110%;
+    text-align: center;
+    padding: 20px 25px 10px;
+}
+
+/* why join us? hr lines and images */
+
 .why-join-text hr {
     border: 1px dashed #707e4e;
     width: 75%;
@@ -148,12 +164,6 @@ nav ul li {
 
 .why-join-bottom hr {
     float: left;
-}
-
-.why-join-text p {
-    font-size: 110%;
-    text-align: center;
-    padding: 20px 25px 10px;
 }
 
 .why-join-image {
@@ -170,7 +180,7 @@ nav ul li {
 
 #continue-section div {
     text-align: center;
-    height: 200px;
+    height: 300px;
     float: left;
 }
 
@@ -181,6 +191,8 @@ nav ul li {
 .continue-text {
     width: 26%;
 }
+
+/* continue exploring text elements */
 
 #continue-section h2 {
     font-size: 250%;

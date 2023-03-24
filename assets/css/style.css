@@ -119,8 +119,8 @@ nav ul li {
 
 #why-join-section div div {
     width: 25%;
-    height: 350px;
-    float: left;
+    height: 300px;
+    float: left;    
 }
 
 /* why join us? text elements */
@@ -146,9 +146,24 @@ nav ul li {
 }
 
 .why-join-text p {
-    font-size: 110%;
+    font-size: 120%;
     text-align: center;
-    padding: 20px 25px 10px;
+    padding: 20px 25px 10px;    
+}
+
+@media screen and (max-width: 1200px) {
+
+    #why-join-header {
+        font-size: 250%;
+    }
+    
+    .why-join-text h3 {
+        font-size: 150%;        
+    }
+    
+    .why-join-text p {
+        font-size: 100%;
+    }    
 }
 
 /* why join us? hr lines and images */

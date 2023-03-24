@@ -251,25 +251,26 @@ footer {
 
 footer div {
     background-color: #707e4e;
-    height: 300px;
+    height: 325px;
     margin-top: 25px;
     float: left;
 }
 
-#directions, #social {
-    width: 25%;
+#directions {
+    width: 35%;
+    text-align: justify;
 }
 
 /* footer map*/
 
 #map {
-    width: 50%;
+    width: 45%;
     text-align: right;
 }
 
 #map iframe {
     width: 90%;
-    height: 80%;
+    height: 85%;
     border: 2px solid #35503b;
     margin: 25px 35px 25px 20px;
 }
@@ -279,11 +280,11 @@ footer div {
 footer h2 {
     font-size: 175%;
     letter-spacing: -1px;
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 footer h3 {
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 footer i {
@@ -292,12 +293,13 @@ footer i {
 }
 
 footer p {
-    font-size: 95%;    
+    font-size: 90%;    
 }
 
 /* footer social links*/
 
 #social {
+    width: 20%;
     text-align: center;
 }
 

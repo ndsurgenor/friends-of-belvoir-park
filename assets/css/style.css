@@ -258,27 +258,57 @@ nav ul li {
     text-decoration: none;
 }
 
-/* footer */
+/* footer layout*/
+
+footer {
+    color: #f5f5f5;
+} 
 
 footer div {
     background-color: #707e4e;
-    height: 275px;
-    float: left
+    height: 300px;
+    margin-top: 25px;
+    float: left;
 }
 
 #map {
     width: 50%;
-    text-align: center;
+    text-align: right;
 }
 
 #map iframe {
-    width: 95%;
-    height: 85%;
+    width: 90%;
+    height: 80%;
     border: 2px solid #f5f5f5;
-    position: relative;
-    top: 15px;
+    margin: 25px 35px 25px 20px;
 }
 
 #directions, #social-links {
     width: 25%;
+}
+
+/* footer text elements*/
+
+footer h2 {
+    font-size: 175%;
+    letter-spacing: -1px;
+    margin-top: 25px;
+}
+
+footer h3 {
+    padding-top: 10px;
+}
+
+footer i {
+    font-size: 90%;
+    padding-left: 5px;
+}
+
+footer p {
+    font-size: 95%;
+    padding-right: 10px;
+}
+
+#social-links {
+    text-align: center;
 }

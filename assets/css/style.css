@@ -82,12 +82,10 @@ nav ul li {
 #hero-image {
     background: url('../images/hero-image.jpg') no-repeat top center; 
     width: 100%;
-    height: 325px;
-    text-align: center;
-    overflow: hidden;
+    height: 300px;
     animation: hero-pan;
-    animation-delay: 800ms;
-    animation-duration: 8s;
+    animation-delay: 1s;
+    animation-duration: 10s;
     animation-fill-mode: forwards;
 }
 
@@ -117,8 +115,8 @@ nav ul li {
     right: 55px;
     opacity: 0;
     animation: cover-text-reveal;
-    animation-delay: 1.6s;
-    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
@@ -260,6 +258,13 @@ nav ul li {
 
 footer div {
     background-color: #707e4e;
-    width: 33.333%;
     float: left
+}
+
+#map {
+    width: 50%;
+}
+
+#directions, #social-links {
+    width: 25%;
 }

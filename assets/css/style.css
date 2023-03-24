@@ -84,8 +84,8 @@ nav ul li {
     width: 100%;
     height: 325px;
     animation: hero-pan;
-    animation-delay: 0.75s;
-    animation-duration: 7.5s;
+    animation-delay: 800ms;
+    animation-duration: 8s;
     animation-fill-mode: forwards;
 }
 
@@ -109,7 +109,7 @@ nav ul li {
     letter-spacing: -1px;
     width: 450px;
     height: 100px;
-    padding: 25px 25px 20px;
+    padding: 20px 25px 15px;
     position: absolute;
     bottom: 45px;
     right: 55px;
@@ -195,7 +195,7 @@ nav ul li {
 
 #continue-section div {
     text-align: center;
-    height: 300px;
+    height: 175px;
     float: left;    
 }
 
@@ -236,4 +236,14 @@ nav ul li {
     color: #f5f5f5;
     background-color: #707e4e;
     text-decoration: none;
+}
+
+/* footer */
+
+footer div {
+    background-color: #707e4e;
+    font-size: 115%;
+    width: 33%;
+    text-align: center;
+    float: left
 }

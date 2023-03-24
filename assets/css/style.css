@@ -262,11 +262,21 @@ nav ul li {
 
 footer div {
     background-color: #707e4e;
+    height: 275px;
     float: left
 }
 
 #map {
     width: 50%;
+    text-align: center;
+}
+
+#map iframe {
+    width: 95%;
+    height: 85%;
+    border: 2px solid #f5f5f5;
+    position: relative;
+    top: 15px;
 }
 
 #directions, #social-links {

@@ -110,7 +110,7 @@ nav ul li {
     letter-spacing: -1px;
     width: 450px;
     height: 100px;
-    padding: 20px 25px;
+    padding: 20px 25px 10px;
 
     position: absolute;
     left: 50%;
@@ -253,7 +253,7 @@ footer div {
     background-color: #707e4e;
     height: 325px;
     margin-top: 25px;
-    float: left;
+    float: right;
 }
 
 #directions {
@@ -425,5 +425,14 @@ footer p {
 
     .continue-text {
         width: 100%;
+    }
+
+    #map, #directions, #social {
+        width: 100%;
+        float: right;
+    }
+
+    #social {
+        height: 100px;
     }
 }

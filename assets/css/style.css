@@ -252,7 +252,7 @@ footer {
 footer div {
     background-color: #707e4e;
     height: 325px;
-    margin-top: 25px;
+    margin-top: 10px;
     float: right;
 }
 
@@ -362,10 +362,32 @@ footer p {
     #continue-section p {
         font-size: 110%;
     }
+
+    #social {
+        width: 100%;
+        height: 115px;
+    }
+
+    #social h2 {
+        margin-top: 15px;
+    }
+
+    #social ul li {
+        font-size: 275%;
+    }
+
+    #directions p {
+        padding-right: 25px;
+    }
+    
+    #map, #directions {
+        width: 50%;
+    }
+    
     
 }
 
-/* Media queries for screens 577px to 900px */
+/* Media queries for screens 601px to 900px */
 
 @media screen and (max-width: 900px) {
 
@@ -394,11 +416,46 @@ footer p {
     #continue-section p {
         font-size: 100%;
     }
+
+    footer h2, footer h3 {
+        text-align: center;
+    }
+    
+    #map, #directions, #social {
+        width: 100%;
+    }
+
+    #map {
+        height: 300px;
+        margin: auto 0px;
+        padding-top: 0px;
+    }
+         
+    footer h2 {
+        font-size: 160%;
+        margin-top: 15px;
+    }
+
+    #directions {
+        height: 250px;
+    }
+
+    #directions h2, #directions h3, #directions p {
+        padding: 5px 25px;
+    }
+    
+    #social {
+        height: 105px;
+    }
+
+    #social ul li {
+        font-size: 250%;
+    }
 }
 
-/* Media queries for screens 576px and smaller */
+/* Media queries for screens 600px and smaller */
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
 
     #why-join-section div div {
         width: 100%;
@@ -426,33 +483,8 @@ footer p {
     .continue-text {
         width: 100%;
     }
-       
-    #map, #directions, #social {
-        width: 100%;
-    }
-
-    #map {
-        margin: auto 0px;
-    }
-
-    footer h2 {
-        font-size: 160%;
-        margin-top: 15px;
-    }
 
     #directions {
-        height: 275px;
-    }
-
-    #directions h2, #directions h3, #directions p {
-        padding: 5px 25px;
-    }
-    
-    #social {
-        height: 105px;
-    }
-
-    #social ul li {
-        font-size: 250%;
+        height: 270px;
     }
 }

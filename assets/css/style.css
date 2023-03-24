@@ -334,7 +334,12 @@ footer p {
     
     .why-join-text p {
         font-size: 100%;
-    }    
+    }
+    
+    #hero-cover-text {
+        font-size: 120%;
+        height: 95px;
+    }
 }
 
 @media screen and (max-width: 900px) {

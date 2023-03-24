@@ -110,14 +110,17 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- Instructions on how to correctly position text over the hero image were taken from a question on [Stack Overflow](https://stackoverflow.com/questions/34739570/hero-image-text-overlay-moves-around-on-browser-resize)
+- The icons throughout the site were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- The photos used throughout the site were taken from [Pexels](https://pexels.com); specifically, the following photographers should be credited:
+  - hero-image.jpg
+  - be-green.jpg
+  - be-active.jpg: [Humphrey Muleba](https://www.pexels.com/photo/woman-and-dog-walking-at-woods-1612847/)
+  - be-social.jpg: [PNW Production](https://www.pexels.com/photo/people-hiking-in-a-forest-7624986/)
+  - be-inspired.jpg: [Matheus Bertelli](https://www.pexels.com/photo/photo-of-man-sitting-in-front-3321796/)
 
 
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 

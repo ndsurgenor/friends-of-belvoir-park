@@ -116,11 +116,12 @@ You can break the credits section up into Content and Media, depending on what y
 ### Media
 
 - The photos used throughout the site were taken from [Pexels](https://pexels.com); specifically, the following photographers should be credited:
-  - hero-image.jpg
-  - be-green.jpg
-  - be-active.jpg: [Humphrey Muleba](https://www.pexels.com/photo/woman-and-dog-walking-at-woods-1612847/)
-  - be-social.jpg: [PNW Production](https://www.pexels.com/photo/people-hiking-in-a-forest-7624986/)
-  - be-inspired.jpg: [Matheus Bertelli](https://www.pexels.com/photo/photo-of-man-sitting-in-front-3321796/)
+  - Ekaterina Bolovtsova: [be-green.jpg](https://www.pexels.com/photo/scouts-collecting-rubbish-in-a-forest-5036781/)
+  - Humphrey Muleba: [be-active.jpg](https://www.pexels.com/photo/woman-and-dog-walking-at-woods-1612847/)
+  - Matheus Bertelli: [be-inspired.jpg](https://www.pexels.com/photo/photo-of-man-sitting-in-front-3321796/)
+  - PNW Production: [be-social.jpg](https://www.pexels.com/photo/people-hiking-in-a-forest-7624986/)
+  - Tobias Aeppli: [hero-image.jpg](https://www.pexels.com/photo/trees-1125265/)
+  
 
 
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 

@@ -426,13 +426,33 @@ footer p {
     .continue-text {
         width: 100%;
     }
-
+       
     #map, #directions, #social {
         width: 100%;
-        float: right;
     }
 
+    #map {
+        margin: auto 0px;
+    }
+
+    footer h2 {
+        font-size: 160%;
+        margin-top: 15px;
+    }
+
+    #directions {
+        height: 275px;
+    }
+
+    #directions h2, #directions h3, #directions p {
+        padding: 5px 25px;
+    }
+    
     #social {
-        height: 100px;
+        height: 105px;
+    }
+
+    #social ul li {
+        font-size: 250%;
     }
 }

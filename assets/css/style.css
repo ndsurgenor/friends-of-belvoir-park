@@ -83,6 +83,8 @@ nav ul li {
     background: url('../images/hero-image.jpg') no-repeat top center; 
     width: 100%;
     height: 325px;
+    text-align: center;
+    overflow: hidden;
     animation: hero-pan;
     animation-delay: 800ms;
     animation-duration: 8s;
@@ -113,7 +115,23 @@ nav ul li {
     position: absolute;
     bottom: 45px;
     right: 55px;
+    opacity: 0;
+    animation: cover-text-reveal;
+    animation-delay: 1.6s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
 }
+
+@keyframes cover-text-reveal {
+        from{
+            opacity: 0;
+        }
+    
+        to{
+            opacity: 1;
+        }
+    }
+
 
 /* why join us? section */
 
@@ -242,8 +260,6 @@ nav ul li {
 
 footer div {
     background-color: #707e4e;
-    font-size: 115%;
-    width: 33%;
-    text-align: center;
+    width: 33.333%;
     float: left
 }

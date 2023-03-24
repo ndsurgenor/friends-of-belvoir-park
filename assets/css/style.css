@@ -171,21 +171,6 @@ nav ul li {
     padding: 20px 25px 10px;    
 }
 
-@media screen and (max-width: 1200px) {
-
-    #why-join-header {
-        font-size: 250%;
-    }
-    
-    .why-join-text h3 {
-        font-size: 150%;        
-    }
-    
-    .why-join-text p {
-        font-size: 100%;
-    }    
-}
-
 /* why join us? hr lines and images */
 
 .why-join-text hr {
@@ -329,4 +314,32 @@ footer p {
 }
 .social-links:hover {
     color: #35503b;
+}
+
+/* media queries */
+
+@media screen and (max-width: 1200px) {
+
+    #title {
+        font-size: 325%
+    }
+
+    #why-join-header {
+        font-size: 250%;
+    }
+    
+    .why-join-text h3 {
+        font-size: 150%;        
+    }
+    
+    .why-join-text p {
+        font-size: 100%;
+    }    
+}
+
+@media screen and (max-width: 950px) {
+
+    #title {
+        font-size: 300%
+    }
 }

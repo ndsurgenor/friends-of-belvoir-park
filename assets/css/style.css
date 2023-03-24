@@ -337,9 +337,29 @@ footer p {
     }    
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 900px) {
 
     #title {
         font-size: 300%
+    }
+
+    #why-join-section div div {
+        width: 50%;
+        height: 250px;
+        float: left;    
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    #why-join-section div div {
+        width: 100%;
+        height: 175px;  
+    }
+
+    #why-join-top hr, #why-join-bottom hr {
+        width: 35%;
+        float: none;
+        margin: 0 auto;
     }
 }

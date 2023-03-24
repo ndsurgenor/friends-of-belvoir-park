@@ -211,11 +211,11 @@ nav ul li {
 }
 
 .continue-spacing {
-    width: 16%;
+    width: 12%;
 }
 
 .continue-text {
-    width: 26%;
+    width: 32%;
 }
 
 /* continue exploring text elements */
@@ -316,12 +316,17 @@ footer p {
     color: #35503b;
 }
 
-/* media queries */
+/* Media queries for screens 901px to 1200px */
 
 @media screen and (max-width: 1200px) {
 
     #title {
         font-size: 325%
+    }
+
+    #hero-cover-text {
+        font-size: 120%;
+        height: 95px;
     }
 
     #why-join-header {
@@ -335,12 +340,30 @@ footer p {
     .why-join-text p {
         font-size: 100%;
     }
-    
-    #hero-cover-text {
-        font-size: 120%;
-        height: 95px;
+
+    #continue-section div {
+        height: 200px;  
     }
+
+    .continue-spacing {
+        width: 10%;
+    }
+
+    .continue-text {
+        width: 35%;
+    }
+
+    #continue-section h2 {
+        font-size: 215%;
+    }
+    
+    #continue-section p {
+        font-size: 110%;
+    }
+    
 }
+
+/* Media queries for screens 577px to 900px */
 
 @media screen and (max-width: 900px) {
 
@@ -353,7 +376,25 @@ footer p {
         height: 250px;
         float: left;    
     }
+
+    .continue-spacing {
+        width: 2%;
+    }
+
+    .continue-text {
+        width: 47%;
+    }
+
+    #continue-section h2 {
+        font-size: 200%;
+    }
+    
+    #continue-section p {
+        font-size: 100%;
+    }
 }
+
+/* Media queries for screens 576px and smaller */
 
 @media screen and (max-width: 576px) {
 
@@ -362,9 +403,25 @@ footer p {
         height: 175px;  
     }
 
+    #why-join-header {
+        font-size: 250%;
+    }
+
     #why-join-top hr, #why-join-bottom hr {
         width: 35%;
         float: none;
         margin: 0 auto;
+    }
+
+    #continue-section div {
+        height: 150px;  
+    }
+
+    .continue-spacing {
+        width: 0%;
+    }
+
+    .continue-text {
+        width: 100%;
     }
 }

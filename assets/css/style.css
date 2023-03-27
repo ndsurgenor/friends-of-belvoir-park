@@ -331,7 +331,7 @@ footer p {
     }
     
     .why-join-text p {
-        font-size: 100%;
+        font-size: 110%;
     }
 
     #continue-section div {
@@ -494,6 +494,10 @@ footer p {
         width: 100%
     }
 
+    .why-join-text p {
+        font-size: 120%;
+    }
+
     #continue-section div {
         height: 150px;  
     }
@@ -520,7 +524,7 @@ footer p {
     }
 
     nav {
-        font-size: 100%;
+        font-size: 110%;
     }
 
     #hero-cover-text {
@@ -529,5 +533,9 @@ footer p {
 
     #why-join-header {
         font-size: 225%;
+    }
+
+    .why-join-text p {
+        font-size: 100%;
     }
 }

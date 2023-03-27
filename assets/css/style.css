@@ -137,10 +137,10 @@ nav ul li {
 
 /* why join us? section */
 
-.why-join-text, .why-join-image {
+#be-green div, #be-active div, #be-social div, #be-inspired div {
     width: 25%;
     height: 300px;
-    float: left;    
+    float: left;
 }
 
 /* why join us? text elements */
@@ -177,11 +177,11 @@ nav ul li {
     width: 75%;
 }
 
-#why-join-top hr {
+#be-green hr, #be-active hr {
     float: right;
 }
 
-#why-join-bottom hr {
+#be-social hr, #be-inspired hr  {
     float: left;
 }
 
@@ -193,6 +193,10 @@ nav ul li {
 
 .why-join-image img {
     max-width: 100%;
+}
+
+.why-join-hiddenimage {
+    display: none;
 }
 
 /* continue exploring section */
@@ -376,12 +380,26 @@ footer p {
 
 @media screen and (max-width: 900px) {
 
-    #why-join-section div div {
+    #be-green div, #be-inspired div {
         width: 50%;
         height: 250px;
         float: left;    
     }
 
+    #be-active div, #be-social div {
+        width: 50%;
+        height: 250px;
+        float: right;    
+    }
+
+    #be-active hr {
+        float: left;
+    }
+
+    #be-social hr {
+        float: right;
+    }
+    
     .continue-spacing {
         width: 2%;
     }
@@ -452,11 +470,28 @@ footer p {
     #why-join-header {
         font-size: 240%;
     }
+  
+    #be-green div, #be-active div, #be-social div, #be-inspired div {
+        width: 100%;
+        height: 200px;
+    }
 
-    #why-join-top hr, #why-join-bottom hr {
-        width: 35%;
-        float: none;
-        margin: 0 auto;
+    #be-green hr, #be-active hr, #be-social hr, #be-inspired hr {
+        visibility: hidden;
+    }
+
+    #why-join-bottom .why-join-image {
+        display: none;
+    }
+    
+    .why-join-hiddenimage {
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+    }
+
+    .why-join-hiddenimage img {
+        width: 100%
     }
 
     #continue-section div {

@@ -147,9 +147,8 @@ nav ul li {
 
 #why-join-header {
     font-size: 275%;
-    text-align: center;
-    text-transform: capitalize;
     letter-spacing: -3px;
+    text-align: center;
     padding: 35px 0px 25px;
 }
 
@@ -318,14 +317,11 @@ footer p {
     color: #35503b;
 }
 
+/* Media queries*/
 /* Media queries for screens 901px to 1200px */
 
 @media screen and (max-width: 1200px) {
-
-    #why-join-header {
-        font-size: 250%;
-    }
-    
+  
     .why-join-text h3 {
         font-size: 150%;        
     }
@@ -373,9 +369,7 @@ footer p {
     
     #map, #directions {
         width: 50%;
-    }
-    
-    
+    }    
 }
 
 /* Media queries for screens 601px to 900px */
@@ -456,7 +450,7 @@ footer p {
     }
 
     #why-join-header {
-        font-size: 250%;
+        font-size: 240%;
     }
 
     #why-join-top hr, #why-join-bottom hr {
@@ -498,4 +492,7 @@ footer p {
         height: 125px; 
     }
 
+    #why-join-header {
+        font-size: 225%;
+    }
 }

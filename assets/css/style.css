@@ -39,7 +39,7 @@ h1, h2 {
 
 #title i {
     color: #707e4e;
-    font-size:70%;
+    font-size: 70%;
     margin-right: 5px;
     margin-left: 1px;
 }
@@ -459,7 +459,8 @@ footer p {
 @media screen and (max-width: 600px) {
 
     #title {
-        font-size: 275%;
+        font-size: 285%;
+        letter-spacing: -5px;
     }
 
     #hero-cover-text {
@@ -526,7 +527,12 @@ footer p {
 @media screen and (max-width: 450px) {
 
     #title {
-        font-size: 255%;
+        font-size: 225%;
+        letter-spacing: -4px;
+    }
+
+    #title i {
+        font-size: 60%;
     }
 
     nav {

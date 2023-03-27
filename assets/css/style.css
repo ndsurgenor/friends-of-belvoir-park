@@ -137,7 +137,7 @@ nav ul li {
 
 /* why join us? section */
 
-#why-join-section div div {
+.why-join-text, .why-join-image {
     width: 25%;
     height: 300px;
     float: left;    

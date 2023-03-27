@@ -237,6 +237,7 @@ nav ul li {
 
 #continue-section a {
     color: #35503b;
+    font-weight: bold;
     text-decoration: underline;
 }
 

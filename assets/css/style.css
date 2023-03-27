@@ -322,10 +322,6 @@ footer p {
 
 @media screen and (max-width: 1200px) {
 
-    #title {
-        font-size: 325%
-    }
-
     #hero-cover-text {
         font-size: 120%;
         height: 95px;
@@ -390,10 +386,6 @@ footer p {
 /* Media queries for screens 601px to 900px */
 
 @media screen and (max-width: 900px) {
-
-    #title {
-        font-size: 300%
-    }
 
     #why-join-section div div {
         width: 50%;
@@ -487,4 +479,10 @@ footer p {
     #directions {
         height: 270px;
     }
+}
+
+/* Media queries for screens 450px and smaller */
+
+@media screen and (max-width: 450px) {
+
 }

@@ -321,6 +321,7 @@ footer p {
     color: #35503b;
 }
 
+
 /* Media queries*/
 /* Media queries for screens 901px to 1200px */
 
@@ -331,7 +332,8 @@ footer p {
     }
     
     .why-join-text p {
-        font-size: 110%;
+        font-size: 105%;
+        padding-top: 10px;
     }
 
     #continue-section div {
@@ -470,6 +472,10 @@ footer p {
     #why-join-header {
         font-size: 240%;
     }
+
+    .why-join-text h3 {
+        padding-top: 20px;
+    }
   
     #be-green div, #be-active div, #be-social div, #be-inspired div {
         width: 100%;
@@ -536,6 +542,6 @@ footer p {
     }
 
     .why-join-text p {
-        font-size: 100%;
+        font-size: 110%;
     }
 }

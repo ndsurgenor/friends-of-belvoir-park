@@ -44,24 +44,25 @@
                 <h2>Join Us or Get In Touch</h2>
 
                 <h3><label for="name">Full Name</label></h3>
-                <input id="name" class="text-input" name="full_name" type="text" required>
+                <input id="name" class="contact-text" name="full_name" type="text" required>
 
                 <h3><label for="email">Email Address</label></h3>
-                <input id="email" class="text-input" name="email_address" type="email" required>
+                <input id="email" class="contact-text" name="email_address" type="email" required>
 
-                <h3>Reason for Contact</h3>
-                <p>(please select all that apply)</p>
-                <label for="join">I want to join Friends of Belvoir Park</label>
-                <input id="join" name="contact_reason" value="join" type="checkbox" required>
-                <label for="know-more">I'm interested in knowing more</label>
-                <input id="know-more" name="contact_reason" value="know_more" type="checkbox" required>
-                <label for="updates">I want to receive regular updates (monthly approx.)</label>
-                <input id="updates" name="contact_reason" value="updates" type="checkbox" required>
-                <label for="other">I have another reason for getting in touch (please specify below)</label>
-                <input id="other" name="contact_reason" value="other" type="checkbox" required>
+                <h3>Reason for Contact <span class="contact-brackets">(please select all that apply)</span></h3>
+                <ul>
+                    <li><label for="join">I want to join Friends of Belvoir Park</label>
+                        <input id="join" name="contact_reason" value="join" type="checkbox" required></li>
+                    <li><label for="know-more">I'm interested in knowing more</label>
+                        <input id="know-more" name="contact_reason" value="know_more" type="checkbox" required></li>
+                    <li><label for="updates">I want to receive regular updates (monthly)</label>
+                        <input id="updates" name="contact_reason" value="updates" type="checkbox" required></li>
+                    <li><label for="other">Other (please specify below)</label>
+                        <input id="other" name="contact_reason" value="other" type="checkbox" required></li>
+                </ul>
 
-                <h3><label for="comments">Additional Comments (optional)</label></h3>
-                <input id="comments" class="text-input" name="email_address" type="text" required>
+                <h3><label for="comments">Additional Comments <span class="contact-brackets">(optional)</span></label></h3>
+                <input id="comments" class="contact-text" name="email_address" type="text" required>
 
                 <input value="Submit Details" id="submit-button" type="submit">
             </form>

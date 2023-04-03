@@ -304,7 +304,10 @@ nav ul li {
 }
 
 .checkbox {
-    display: inline-block;
+    height: 25px;
+    margin-right: 10px;
+    float: left;
+    border: #35503b;
 }
 
 #comments {

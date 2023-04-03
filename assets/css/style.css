@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Poppins:wght@300&display=swap');
 
-/* general */
+/* GENERAL */
 
 * {
     margin: 0;
@@ -19,6 +19,7 @@ h1, h2 {
     font-weight: 600;
 }
 
+/* TITLE & NAVIGATION */
 /* title */
 
 #title {
@@ -73,6 +74,7 @@ nav ul li {
     border-bottom: 1px solid;
 }
 
+/* HOME PAGE */
 /* hero image */
 
 #hero-section {
@@ -247,6 +249,9 @@ nav ul li {
     text-decoration: none;
 }
 
+/* EVENTS PAGE */
+
+/* CONTACT PAGE */
 /* contact form layout*/
 
 #contact-form div {
@@ -329,6 +334,7 @@ nav ul li {
     border: 1px solid #707e4e;
 }
 
+/* FOOTER */
 /* footer layout*/
 
 footer {

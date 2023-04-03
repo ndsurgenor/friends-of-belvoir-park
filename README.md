@@ -110,6 +110,7 @@ The live link can be found here - https://code-institute-org.github.io/love-runn
 ### Media
 
 - The photos used throughout the site were taken from [Pexels](https://pexels.com); specifically, the following photographers should be credited:
+  - Any Lane: [family.jpg](https://www.pexels.com/photo/family-visiting-tree-farm-and-walking-among-pines-5728297/)
   - Ekaterina Bolovtsova: [be-green.jpg](https://www.pexels.com/photo/scouts-collecting-rubbish-in-a-forest-5036781/)
   - Humphrey Muleba: [be-active.jpg](https://www.pexels.com/photo/woman-and-dog-walking-at-woods-1612847/)
   - Matheus Bertelli: [be-inspired.jpg](https://www.pexels.com/photo/photo-of-man-sitting-in-front-3321796/)

@@ -29,9 +29,9 @@
         <!-- navigation -->
         <nav>
             <ul>
-                <li><a href="index.html" class="nav-links active">Home</a></li>
+                <li><a href="index.html" class="nav-links">Home</a></li>
                 <li><a href="events.html" class="nav-links">Events</a></li>
-                <li><a href="contact.html" class="nav-links">Contact</a></li>
+                <li><a href="contact.html" class="nav-links active">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -39,7 +39,31 @@
     <!-- contact form -->
     <section>
         <div id="contact-form">
-            <h2>Join Us or Get In Touch</h2>
+            <form action="POST" action="https://formdump.codeinstitute.net/">
+                <h2>Join Us or Get In Touch</h2>
+
+                <label for="name">Full Name</label>
+                <input id="name" class="text-input" name="full_name" type="text" required>
+
+                <label for="email">Email Address</label>
+                <input id="email" class="text-input" name="email_address" type="email" required>
+
+                <h3>Reason for Contact</h3>
+                <p>(please select all that apply)</p>
+                <label for="join">I want to join Friends of Belvoir Park</label>
+                <input id="join" name="contact_reason" value="join" type="checkbox" required>
+                <label for="know-more">I'm interested in knowing more</label>
+                <input id="know-more" name="contact_reason" value="know_more" type="checkbox" required>
+                <label for="updates">I want to receive regular updates (monthly approx.)</label>
+                <input id="updates" name="contact_reason" value="updates" type="checkbox" required>
+                <label for="other">I have another reason for getting in touch (please specify below)</label>
+                <input id="other" name="contact_reason" value="other" type="checkbox" required>
+
+                <label for="comments">Additional Comments (optional)</label>
+                <input id="comments" class="text-input" name="email_address" type="text" required>
+
+                <input value="Submit Details" id="submit-button" type="submit">
+            </form>
         </div>
         <div id="contact-image">
             <img src="assets/images/family.jpg" alt="Family walking through open woodland">
@@ -81,11 +105,10 @@
         </div>
         <!-- Google map showing location of Belvoir Park Forest -->
         <div id="map">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9254.824984624074!2d-5.925356285765565!
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9254.824984624074!2d-5.925356285765565!
                 3d54.556303635341756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486108cc4964e7c5%3A0xfa01b82ba7084cd3!2s
-                Belvoir%20Park%20Forest!5e0!3m2!1sen!2suk!4v1679659727963!5m2!1sen!2suk"
-                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                Belvoir%20Park%20Forest!5e0!3m2!1sen!2suk!4v1679659727963!5m2!1sen!2suk" allowfullscreen=""
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade"
                 aria-label="Google map showing the location of Belvoir Park Forest"></iframe>
         </div>
     </footer>

@@ -37,15 +37,16 @@
     </header>
 
     <!-- contact form -->
-    <section>
-        <div id="contact-form">
+    <section id="contact-form">
+        <div class="contact-spacing"></div>
+        <div id="contact-details">
             <form action="POST" action="https://formdump.codeinstitute.net/">
                 <h2>Join Us or Get In Touch</h2>
 
-                <label for="name">Full Name</label>
+                <h3><label for="name">Full Name</label></h3>
                 <input id="name" class="text-input" name="full_name" type="text" required>
 
-                <label for="email">Email Address</label>
+                <h3><label for="email">Email Address</label></h3>
                 <input id="email" class="text-input" name="email_address" type="email" required>
 
                 <h3>Reason for Contact</h3>
@@ -59,7 +60,7 @@
                 <label for="other">I have another reason for getting in touch (please specify below)</label>
                 <input id="other" name="contact_reason" value="other" type="checkbox" required>
 
-                <label for="comments">Additional Comments (optional)</label>
+                <h3><label for="comments">Additional Comments (optional)</label></h3>
                 <input id="comments" class="text-input" name="email_address" type="text" required>
 
                 <input value="Submit Details" id="submit-button" type="submit">
@@ -68,6 +69,7 @@
         <div id="contact-image">
             <img src="assets/images/family.jpg" alt="Family walking through open woodland">
         </div>
+        <div class="contact-spacing"></div>
     </section>
 
     <!-- footer -->

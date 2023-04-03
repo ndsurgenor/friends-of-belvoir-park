@@ -247,6 +247,32 @@ nav ul li {
     text-decoration: none;
 }
 
+/* contact form*/
+
+#contact-form div {
+    height: 550px;
+    float: left;
+}
+
+.contact-spacing {
+    width: 15%;
+}
+
+#contact-details {
+    width: 34%;
+}
+
+#contact-image {
+    width: 36%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+#contact-image img {
+    height: 100%;
+}
+
 /* footer layout*/
 
 footer {

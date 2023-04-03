@@ -203,7 +203,7 @@ nav ul li {
 
 #continue-section div {
     text-align: center;
-    height: 175px;
+    height: 200px;
     float: left;    
 }
 
@@ -224,14 +224,14 @@ nav ul li {
 /* continue exploring text elements */
 
 #continue-section h2 {
-    font-size: 225%;
+    font-size: 220%;
     text-align: center;
     letter-spacing: -3px;
     padding: 35px 0px 20px;
 }
 
 #continue-section p {
-    font-size: 120%;
+    font-size: 115%;
     padding: 0px 50px;
 }
 
@@ -347,14 +347,6 @@ footer p {
 
     .continue-text {
         width: 35%;
-    }
-
-    #continue-section h2 {
-        font-size: 215%;
-    }
-    
-    #continue-section p {
-        font-size: 110%;
     }
 
     #social {

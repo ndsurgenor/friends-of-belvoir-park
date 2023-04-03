@@ -358,10 +358,6 @@ footer p {
         margin-top: 15px;
     }
 
-    #social ul li {
-        font-size: 275%;
-    }
-
     #directions p {
         padding-right: 25px;
     }
@@ -414,8 +410,8 @@ footer p {
     footer h2, footer h3 {
         text-align: center;
     }
-    
-    #map, #directions, #social {
+
+    #map, #directions {
         width: 100%;
     }
 
@@ -425,11 +421,6 @@ footer p {
         padding-top: 0px;
     }
          
-    footer h2 {
-        font-size: 160%;
-        margin-top: 15px;
-    }
-
     #directions {
         height: 250px;
     }
@@ -437,15 +428,6 @@ footer p {
     #directions h2, #directions h3, #directions p {
         padding: 5px 25px;
     }
-    
-    #social {
-        height: 105px;
-    }
-
-    #social ul li {
-        font-size: 250%;
-    }
-}
 
 /* Media queries for screens 451px to 600px */
 
@@ -499,7 +481,7 @@ footer p {
     }
 
     #continue-section div {
-        height: 150px;  
+        height: 175px;  
     }
 
     .continue-spacing {
@@ -509,7 +491,7 @@ footer p {
     .continue-text {
         width: 100%;
     }
-
+    
     #directions {
         height: 270px;
     }

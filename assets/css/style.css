@@ -437,6 +437,18 @@ footer p {
         width: 35%;
     }
 
+    .contact-spacing {
+        width: 4%;
+    }
+    
+    #contact-details {
+        width: 45%;
+    }
+    
+    #contact-image {
+        width: 47%;
+    }
+
     #social {
         width: 100%;
         height: 115px;
@@ -493,6 +505,30 @@ footer p {
     
     #continue-section p {
         font-size: 100%;
+    }
+
+    .contact-spacing {
+        width: 14%;
+        background-image: url('../images/family.jpg');
+    }
+  
+    #contact-details {
+        width: 72%;
+        text-align: center;
+    }
+  
+    #contact-image {
+        width: 0%;
+    }
+
+    .checkbox {
+        position: absolute;
+        margin-left: 5px;
+    }
+
+    #submit-button {
+        text-align: center;
+        margin: auto;
     }
 
     footer h2, footer h3 {

@@ -569,7 +569,7 @@ footer p {
 @media screen and (max-width: 600px) {
 
     #title {
-        font-size: 285%;
+        font-size: 275%;
         letter-spacing: -5px;
     }
 
@@ -632,7 +632,7 @@ footer p {
     }
 
     #contact-form h2 {
-        font-size: 210%;
+        font-size: 205%;
     }
     
     #contact-form h3 {
@@ -675,6 +675,15 @@ footer p {
 
     .why-join-text p {
         font-size: 110%;
+    }
+
+    .contact-text {
+        width: 290px;
+    }
+
+    .label {
+        font-size: 95%;
+        letter-spacing: -1px;
     }
     
     #directions {

@@ -626,6 +626,22 @@ footer p {
     .continue-text {
         width: 100%;
     }
+
+    .contact-spacing {
+        width: 5%;
+    }
+
+    #contact-form h2 {
+        font-size: 210%;
+    }
+    
+    #contact-form h3 {
+        font-size: 100%;
+    }
+  
+    #contact-details {
+        width: 90%;
+    }
     
     #directions {
         height: 320px

@@ -340,17 +340,18 @@ nav ul li {
 
 .event-details {
     width: 25%;
-    height: 550px;
+    height: 525px;
     float: left;
 }
 
 .event-details img {
     width: 100%;
-    border: 5px solid white;
+    border: 3px solid white;
     box-sizing: border-box;
+    padding-top: 5px;
 }
 
-/* events schedule elements */
+/* events schedule text elements */
 
 #event-details hr {
     border-bottom: 2px solid #707e4e;
@@ -360,11 +361,16 @@ nav ul li {
 
 .event-details h3 {
     font-size: 150%;
-    padding: 15px 0px 0px 15px;
+    padding: 20px 0px 5px 15px;
+}
+
+.event-details i {
+    font-size: 95%;
+    color: #707e4e;
 }
 
 .event-details h4 {
-    font-size: 125%;
+    font-size: 115%;
     color: #35503b;
     padding-left: 15px;
 }

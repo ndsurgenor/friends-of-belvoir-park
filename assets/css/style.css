@@ -318,7 +318,7 @@ nav ul li {
 }
 
 .highlighted-events h3 {
-    font-size: 160%;
+    font-size: 150%;
     padding-top: 10px;
 }
 
@@ -332,7 +332,7 @@ nav ul li {
 }
 
 .highlighted-events p {
-    font-size: 110%;
+    font-size: 105%;
     padding-top: 10px;
 }
 
@@ -351,7 +351,7 @@ nav ul li {
     padding-top: 5px;
 }
 
-/* events schedule text elements */
+/* events details text elements */
 
 #event-details hr {
     border-bottom: 2px solid #707e4e;
@@ -545,7 +545,7 @@ footer p {
 }
 
 
-/* Media queries*/
+/* MEDIA QUERIES*/
 /* Media queries for screens 901px to 1200px */
 
 @media screen and (max-width: 1200px) {

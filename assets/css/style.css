@@ -254,7 +254,7 @@ nav ul li {
 
 #events-intro, #events-banner {
     height: 275px;
-    float:left;
+    float: right;
 }
 
 #events-intro {
@@ -546,8 +546,8 @@ footer p {
 
 
 /* MEDIA QUERIES*/
-/* Media queries for screens 901px to 1200px */
 
+/* Media queries for screens 901px to 1200px */
 @media screen and (max-width: 1200px) {
   
     /* why join us? section */ 
@@ -571,6 +571,11 @@ footer p {
 
     .continue-text {
         width: 35%;
+    }
+
+     /* current events section */
+    #events-intro p {
+        font-size: 105%;
     }
 
     .continue-spacing-alt {
@@ -610,7 +615,6 @@ footer p {
 }
 
 /* Media queries for screens 601px to 900px */
-
 @media screen and (max-width: 900px) {
 
     /* why join us? section */ 
@@ -649,6 +653,17 @@ footer p {
     
     #continue-section p {
         font-size: 100%;
+    }
+
+     /* current events section */
+    #events-intro, #events-banner {
+        height: 450px;
+    }
+
+    .highlighted-events {
+        width: 100%;
+        height: 225px;
+        float: none;
     }
 
     .continue-spacing-alt {
@@ -715,7 +730,6 @@ footer p {
 }
 
 /* Media queries for screens 451px to 600px */
-
 @media screen and (max-width: 600px) {
 
     /* header */ 
@@ -780,6 +794,26 @@ footer p {
         width: 100%;
     }
 
+     /* current events section */
+     #events-intro, #events-banner {
+        width: 100%;
+        height: 300px;
+    }
+
+    .highlighted-events {
+        width: 50%;
+        height: 300px;
+        float: left;
+    }
+
+    .highlighted-events h3 {
+        font-size: 140%;
+    }
+
+    .highlighted-events h4 {
+        font-size: 110%;
+    }
+
     .continue-spacing-alt {
         width: 0%;
     }
@@ -808,7 +842,6 @@ footer p {
 }
 
 /* Media queries for screens 450px and smaller */
-
 @media screen and (max-width: 450px) {
 
     /* header */ 
@@ -836,6 +869,24 @@ footer p {
 
     .why-join-text p {
         font-size: 105%;
+    }
+
+    /* current events section */
+    #events-banner {
+        height: 370px;
+    }
+
+    #events-intro p {
+        font-size: 100%;
+    }
+
+    .highlighted-events {
+        width: 100%;
+        height: 185px;
+    }
+
+    .highlighted-events p {
+        font-size: 95%;
     }
 
     /* contact form */

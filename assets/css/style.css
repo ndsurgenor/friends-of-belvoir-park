@@ -381,6 +381,10 @@ nav ul li {
     padding: 5px 20px;
 }
 
+.continue-spacing-alt {
+    width: 34%
+}
+
 /* CONTACT PAGE */
 /* contact form layout*/
 
@@ -569,6 +573,10 @@ footer p {
         width: 35%;
     }
 
+    .continue-spacing-alt {
+        width: 32.5%
+    }
+
     /* contact form */
     .contact-spacing {
         width: 4%;
@@ -641,6 +649,10 @@ footer p {
     
     #continue-section p {
         font-size: 100%;
+    }
+
+    .continue-spacing-alt {
+        width: 26.5%
     }
 
     /* contact form */ 
@@ -766,6 +778,10 @@ footer p {
 
     .continue-text {
         width: 100%;
+    }
+
+    .continue-spacing-alt {
+        width: 0%;
     }
 
     /* contact form */ 

@@ -336,6 +336,28 @@ nav ul li {
     padding-top: 10px;
 }
 
+/* events details layout */
+
+#event-details hr {
+    border-bottom: 2px solid #707e4e;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.event-details {
+    width: 25%;
+    height: 450px;
+    float: left;
+}
+
+.event-details img {
+    width: 100%;
+    border: 3px solid white;
+    box-sizing: border-box;
+}
+
+/* events schedule text elements */
+
 /* CONTACT PAGE */
 /* contact form layout*/
 

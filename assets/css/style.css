@@ -338,25 +338,42 @@ nav ul li {
 
 /* events details layout */
 
-#event-details hr {
-    border-bottom: 2px solid #707e4e;
-    width: 100%;
-    padding-top: 50px;
-}
-
 .event-details {
     width: 25%;
-    height: 450px;
+    height: 550px;
     float: left;
 }
 
 .event-details img {
     width: 100%;
-    border: 3px solid white;
+    border: 5px solid white;
     box-sizing: border-box;
 }
 
-/* events schedule text elements */
+/* events schedule elements */
+
+#event-details hr {
+    border-bottom: 2px solid #707e4e;
+    width: 100%;
+    padding-bottom: 35px;
+}
+
+.event-details h3 {
+    font-size: 150%;
+    padding: 15px 0px 0px 15px;
+}
+
+.event-details h4 {
+    font-size: 125%;
+    color: #35503b;
+    padding-left: 15px;
+}
+
+.event-details p {
+    font-size: 110%;
+    text-align: justify;
+    padding: 5px 20px;
+}
 
 /* CONTACT PAGE */
 /* contact form layout*/

@@ -294,6 +294,22 @@ nav ul li {
     padding: 15px 35px;
 }
 
+#events-intro i {
+    color: #35503b;
+}
+
+#events-intro a {
+    color: #35503b;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#events-intro a:hover {
+    color: #f5f5f5;
+    background-color: #707e4e;
+    text-decoration: none;
+}
+
 .highlighted-events h3, .highlighted-events h4, .highlighted-events p {
     color: #f5f5f5;
     text-align: right;
@@ -302,8 +318,13 @@ nav ul li {
 }
 
 .highlighted-events h3 {
-    font-size: 165%;
+    font-size: 160%;
     padding-top: 10px;
+}
+
+.highlighted-events i {
+    font-size: 80%;
+    padding-right: 5px;
 }
 
 .highlighted-events h4 {

@@ -250,6 +250,29 @@ nav ul li {
 }
 
 /* EVENTS PAGE */
+/* current events layout */
+
+#current-events div {
+    height: 300px;
+    float:left;
+}
+
+.highlighted-events {
+    width: 25%;
+}
+
+#events-intro {
+    width: 50%;
+}
+
+/* current events text elements */
+
+#events-header {
+    font-size: 275%;
+    letter-spacing: -3px;
+    text-align: center;
+    padding: 35px 0px 25px;
+}
 
 /* CONTACT PAGE */
 /* contact form layout*/

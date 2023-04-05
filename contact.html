@@ -40,7 +40,7 @@
     <section id="contact-form">
         <div class="contact-spacing"></div>
         <div id="contact-details">
-            <form action="POST" action="https://formdump.codeinstitute.net/">
+            <form method="post" action="https://formdump.codeinstitute.net/">
                 <h2>Join Us or Get In Touch</h2>
 
                 <h3><label for="name">Full Name</label></h3>
@@ -52,22 +52,22 @@
                 <h3>Reason for Contact <span class="contact-brackets">(select all that apply)</span></h3>
                 <ul>
                     <li><label for="join" class="label">I want to join Friends of Belvoir Park</label>
-                        <input id="join" class="checkbox" name="contact_reason" value="join" type="checkbox" required>
+                        <input id="join" class="checkbox" name="contact_reason" value="join" type="checkbox">
                     </li>
                     <li><label for="know-more" class="label">I'm interested in knowing more</label>
-                        <input id="know-more" class="checkbox" name="contact_reason" value="know_more" type="checkbox" required>
+                        <input id="know-more" class="checkbox" name="contact_reason" value="know_more" type="checkbox">
                     </li>
                     <li><label for="updates" class="label">I want to receive regular updates <span class="contact-brackets">(monthly)</span></label>
-                        <input id="updates" class="checkbox" name="contact_reason" value="updates" type="checkbox" required>
+                        <input id="updates" class="checkbox" name="contact_reason" value="updates" type="checkbox">
                     </li>
                     <li><label for="other" class="label">Some other reason <span class="contact-brackets">(please specify below)</span></label>
-                        <input id="other" class="checkbox" name="contact_reason" value="other" type="checkbox" required>
+                        <input id="other" class="checkbox" name="contact_reason" value="other" type="checkbox">
                     </li>
-                </ul>
+                </ul>          
 
                 <h3><label for="comments">Additional Comments <span class="contact-brackets">(optional)</span></label>
                 </h3>
-                <input id="comments" class="contact-text" name="email_address" type="text" required>
+                <input id="comments" class="contact-text" name="email_address" type="text">
 
                 <input value="Submit Details" id="submit-button" type="submit">
             </form>

@@ -63,7 +63,9 @@ In this section, you should go over the different parts of your project, and des
 
 ### Features Left to Implement
 
-- Another feature idea
+- Add pages to show photos from events
+- Add
+- Reformat contact form to load message within iframe
 
 ## Testing 
 
@@ -89,14 +91,13 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
+  - In the GitHub repository, navigate to the Settings tab (top right)
+  - From the options in the lefthand side menu, select GitHub pages
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here - https://ndsurgenor.github.io/friends-of-belvoir-park 
 
 
 ## Credits 

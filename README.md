@@ -107,6 +107,7 @@ The live link can be found here - https://ndsurgenor.github.io/friends-of-belvoi
 - The icons throughout the site were taken from [Font Awesome](https://fontawesome.com/)
 - Instructions on how to correctly position text over the hero image were taken from a question on [Stack Overflow](https://stackoverflow.com/questions/34739570/hero-image-text-overlay-moves-around-on-browser-resize)
 - The map in the footer is displayed using adapted embed code from [Google Maps](https://goo.gl/maps/7sfANXM9UZmFgrss6)
+  and this link was shortened using [TinyURL](https://tinyurl.com/app)
 - The map on the Events page is produced and distrubuted by [NI Direct](https://www.nidirect.gov.uk/publications/northern-ireland-public-forests-trail-maps)
 
 ### Media

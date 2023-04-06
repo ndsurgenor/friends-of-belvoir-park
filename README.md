@@ -105,8 +105,9 @@ The live link can be found here - https://ndsurgenor.github.io/friends-of-belvoi
 ### Content 
 
 - The icons throughout the site were taken from [Font Awesome](https://fontawesome.com/)
-- The map in the footer is displayed using adapted embed code from [Google Maps](https://goo.gl/maps/7sfANXM9UZmFgrss6)
 - Instructions on how to correctly position text over the hero image were taken from a question on [Stack Overflow](https://stackoverflow.com/questions/34739570/hero-image-text-overlay-moves-around-on-browser-resize)
+- The map in the footer is displayed using adapted embed code from [Google Maps](https://goo.gl/maps/7sfANXM9UZmFgrss6)
+- The map on the Events page is produced and distrubuted by [NI Direct](https://www.nidirect.gov.uk/publications/northern-ireland-public-forests-trail-maps)
 
 ### Media
 
@@ -115,5 +116,9 @@ The live link can be found here - https://ndsurgenor.github.io/friends-of-belvoi
   - Ekaterina Bolovtsova: [be-green.jpg](https://www.pexels.com/photo/scouts-collecting-rubbish-in-a-forest-5036781/)
   - Humphrey Muleba: [be-active.jpg](https://www.pexels.com/photo/woman-and-dog-walking-at-woods-1612847/)
   - Matheus Bertelli: [be-inspired.jpg](https://www.pexels.com/photo/photo-of-man-sitting-in-front-3321796/)
+                        & [event-inspired.jpg](https://www.pexels.com/photo/photo-of-people-sitting-on-chairs-3321789/)
+  - Michael Burrows: [event-social.jpg](https://www.pexels.com/photo/chemex-coffeemaker-with-cup-placed-on-terrace-with-metal-kettle-and-hand-grinder-7125621/)
   - PNW Production: [be-social.jpg](https://www.pexels.com/photo/people-hiking-in-a-forest-7624986/)
+  - Ron Lack: [event-green.jpg](https://www.pexels.com/photo/happy-woman-doing-an-environmental-cleanup-9543745/)
+  - Tatiana Syrikova: [event-active.jpg](https://www.pexels.com/photo/anonymous-man-with-baby-on-shoulders-walking-away-3932687/)
   - Tobias Aeppli: [hero-image.jpg](https://www.pexels.com/photo/trees-1125265/)

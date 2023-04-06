@@ -8,13 +8,15 @@
     border: none;
 }
 
-body, #submit-button {
+body,
+#submit-button {
     font-family: Poppins, sans-serif;
     font-weight: 300;
     color: #2c2c2c;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: Josefin Sans, sans-serif;
     font-weight: 600;
 }
@@ -64,12 +66,14 @@ nav ul li {
 
 /* navigation bar links*/
 
-.nav-links, .active {
+.nav-links,
+.active {
     color: inherit;
     text-decoration: none;
 }
 
-.nav-links:hover, .active {
+.nav-links:hover,
+.active {
     border-color: inherit;
     border-bottom: 1px solid;
 }
@@ -82,10 +86,10 @@ nav ul li {
 }
 
 #hero-image {
-    background: url('../images/hero-image.jpg') no-repeat top center; 
+    background: url('../images/hero-image.jpg') no-repeat top center;
     width: 100%;
     height: 300px;
-    
+
     animation: hero-pan;
     animation-delay: 1s;
     animation-duration: 10s;
@@ -93,11 +97,11 @@ nav ul li {
 }
 
 @keyframes hero-pan {
-    from{
+    from {
         background-position: top;
     }
 
-    to{
+    to {
         background-position: bottom;
     }
 }
@@ -116,9 +120,9 @@ nav ul li {
 
     position: absolute;
     left: 50%;
-    top: 50%;        
-    transform: translate(-50%,-50%);
-    
+    top: 50%;
+    transform: translate(-50%, -50%);
+
     opacity: 0;
     animation: cover-text-reveal;
     animation-delay: 2s;
@@ -127,19 +131,22 @@ nav ul li {
 }
 
 @keyframes cover-text-reveal {
-        from{
-            opacity: 0;
-        }
-    
-        to{
-            opacity: 1;
-        }
+    from {
+        opacity: 0;
     }
+
+    to {
+        opacity: 1;
+    }
+}
 
 
 /* why join us? section */
 
-#be-green div, #be-active div, #be-social div, #be-inspired div {
+#be-green div,
+#be-active div,
+#be-social div,
+#be-inspired div {
     width: 25%;
     height: 300px;
     float: left;
@@ -169,7 +176,7 @@ nav ul li {
 .why-join-text p {
     font-size: 120%;
     text-align: center;
-    padding: 20px 25px 10px;    
+    padding: 20px 25px 10px;
 }
 
 /* why join us? hr lines and images */
@@ -179,11 +186,13 @@ nav ul li {
     width: 75%;
 }
 
-#be-green hr, #be-active hr {
+#be-green hr,
+#be-active hr {
     float: right;
 }
 
-#be-social hr, #be-inspired hr  {
+#be-social hr,
+#be-inspired hr {
     float: left;
 }
 
@@ -206,7 +215,7 @@ nav ul li {
 #continue-section div {
     text-align: center;
     height: 200px;
-    float: left;    
+    float: left;
 }
 
 #continue-section hr {
@@ -250,9 +259,10 @@ nav ul li {
 }
 
 /* EVENTS PAGE */
-/* current events layout */
+/* events top section layout */
 
-#events-intro, #events-banner {
+#events-intro,
+#events-banner {
     height: 275px;
     float: right;
 }
@@ -279,7 +289,7 @@ nav ul li {
     float: left;
 }
 
-/* current events text elements */
+/* events top section elements */
 
 #events-header {
     font-size: 250%;
@@ -310,7 +320,9 @@ nav ul li {
     text-decoration: none;
 }
 
-.highlighted-events h3, .highlighted-events h4, .highlighted-events p {
+.highlighted-events h3,
+.highlighted-events h4,
+.highlighted-events p {
     color: #f5f5f5;
     text-align: right;
     padding-left: 15px;
@@ -338,14 +350,14 @@ nav ul li {
 
 /* events details layout */
 
-.event-details {
+.events-details {
     width: 25%;
-    height: 525px;
+    height: 500px;
     float: left;
 }
 
-.event-details img {
-    width: 100%;
+.events-details img {
+    max-width: 100%;
     border: 3px solid white;
     box-sizing: border-box;
     padding-top: 5px;
@@ -353,29 +365,29 @@ nav ul li {
 
 /* events details text elements */
 
-#event-details hr {
+#events-details hr {
     border-bottom: 2px solid #707e4e;
     width: 100%;
     padding-bottom: 35px;
 }
 
-.event-details h3 {
+.events-details h3 {
     font-size: 150%;
     padding: 20px 0px 5px 15px;
 }
 
-.event-details i {
+.events-details i {
     font-size: 95%;
     color: #707e4e;
 }
 
-.event-details h4 {
+.events-details h4 {
     font-size: 115%;
     color: #35503b;
     padding-left: 15px;
 }
 
-.event-details p {
+.events-details p {
     font-size: 110%;
     text-align: justify;
     padding: 5px 20px;
@@ -473,7 +485,7 @@ nav ul li {
 
 footer {
     color: #f5f5f5;
-} 
+}
 
 footer div {
     background-color: #707e4e;
@@ -519,7 +531,7 @@ footer i {
 }
 
 footer p {
-    font-size: 95%;    
+    font-size: 95%;
 }
 
 /* footer social links*/
@@ -540,6 +552,7 @@ footer p {
     color: inherit;
     text-decoration: none;
 }
+
 .social-links:hover {
     color: #35503b;
 }
@@ -549,12 +562,12 @@ footer p {
 
 /* Media queries for screens 901px to 1200px */
 @media screen and (max-width: 1200px) {
-  
-    /* why join us? section */ 
+
+    /* why join us? section */
     .why-join-text h3 {
-        font-size: 150%;        
+        font-size: 150%;
     }
-    
+
     .why-join-text p {
         font-size: 105%;
         padding-top: 10px;
@@ -562,7 +575,7 @@ footer p {
 
     /* continue section */
     #continue-section div {
-        height: 200px;  
+        height: 200px;
     }
 
     .continue-spacing {
@@ -573,9 +586,17 @@ footer p {
         width: 35%;
     }
 
-     /* current events section */
+    /* events top section */
     #events-intro p {
         font-size: 105%;
+    }
+
+    /* events details */
+
+    .events-details {
+        width: 50%;
+        height: 550px;
+        padding-top: 15px;
     }
 
     .continue-spacing-alt {
@@ -586,11 +607,11 @@ footer p {
     .contact-spacing {
         width: 4%;
     }
-    
+
     #contact-details {
         width: 45%;
     }
-    
+
     #contact-image {
         width: 47%;
     }
@@ -605,29 +626,32 @@ footer p {
         margin-top: 15px;
     }
 
-    #directions, #map {
+    #directions,
+    #map {
         width: 50%;
     }
 
     #directions p {
         padding-right: 25px;
-    }  
+    }
 }
 
 /* Media queries for screens 601px to 900px */
 @media screen and (max-width: 900px) {
 
-    /* why join us? section */ 
-    #be-green div, #be-inspired div {
+    /* why join us? section */
+    #be-green div,
+    #be-inspired div {
         width: 50%;
         height: 250px;
-        float: left;    
+        float: left;
     }
 
-    #be-active div, #be-social div {
+    #be-active div,
+    #be-social div {
         width: 50%;
         height: 250px;
-        float: right;    
+        float: right;
     }
 
     #be-active hr {
@@ -637,7 +661,7 @@ footer p {
     #be-social hr {
         float: right;
     }
-    
+
     /* continue section */
     .continue-spacing {
         width: 2%;
@@ -650,13 +674,14 @@ footer p {
     #continue-section h2 {
         font-size: 200%;
     }
-    
+
     #continue-section p {
         font-size: 100%;
     }
 
-     /* current events section */
-    #events-intro, #events-banner {
+    /* events top section */
+    #events-intro,
+    #events-banner {
         height: 450px;
     }
 
@@ -666,21 +691,31 @@ footer p {
         float: none;
     }
 
+    /* events details */
+    .events-details {
+        height: 525px;
+        padding-top: 0px;
+    }
+
+    .events-details h3 {
+        font-size: 140%;
+    }
+
     .continue-spacing-alt {
         width: 26.5%
     }
 
-    /* contact form */ 
+    /* contact form */
     .contact-spacing {
         width: 14%;
         background-image: url('../images/family.jpg');
     }
-  
+
     #contact-details {
         width: 72%;
         text-align: center;
     }
-  
+
     #contact-image {
         width: 0%;
     }
@@ -695,12 +730,14 @@ footer p {
         margin: auto;
     }
 
-    /* footer */ 
-    footer h2, footer h3 {
+    /* footer */
+    footer h2,
+    footer h3 {
         text-align: center;
     }
 
-    #directions, #map {
+    #directions,
+    #map {
         width: 100%;
     }
 
@@ -708,7 +745,8 @@ footer p {
         height: 275px;
     }
 
-    #directions h2, #directions p {
+    #directions h2,
+    #directions p {
         padding: 5px 25px;
     }
 
@@ -726,26 +764,26 @@ footer p {
     #map iframe {
         width: 90%;
         margin: 25px 15px;
-    }      
+    }
 }
 
 /* Media queries for screens 451px to 600px */
 @media screen and (max-width: 600px) {
 
-    /* header */ 
+    /* header */
     #title {
         font-size: 275%;
         letter-spacing: -5px;
     }
 
     #hero-cover-text {
-        font-size:105%;
+        font-size: 105%;
         letter-spacing: -0.5px;
         width: 75%;
-        height: 100px;     
+        height: 100px;
     }
 
-    /* why join us? section */ 
+    /* why join us? section */
     #why-join-header {
         font-size: 240%;
     }
@@ -753,20 +791,26 @@ footer p {
     .why-join-text h3 {
         padding-top: 20px;
     }
-  
-    #be-green div, #be-active div, #be-social div, #be-inspired div {
+
+    #be-green div,
+    #be-active div,
+    #be-social div,
+    #be-inspired div {
         width: 100%;
         height: 200px;
     }
 
-    #be-green hr, #be-active hr, #be-social hr, #be-inspired hr {
+    #be-green hr,
+    #be-active hr,
+    #be-social hr,
+    #be-inspired hr {
         visibility: hidden;
     }
 
     #why-join-bottom .why-join-image {
         display: none;
     }
-    
+
     .why-join-hiddenimage {
         overflow: hidden;
         display: flex;
@@ -781,9 +825,9 @@ footer p {
         font-size: 120%;
     }
 
-    /* continue section */ 
+    /* continue section */
     #continue-section div {
-        height: 175px;  
+        height: 175px;
     }
 
     .continue-spacing {
@@ -794,12 +838,12 @@ footer p {
         width: 100%;
     }
 
-     /* current events section */
-     #events-header {
+    /* events top section */
+    #events-header {
         font-size: 225%;
         letter-spacing: -4px;
     }
-    
+
     #events-banner {
         width: 100%;
         height: 300px;
@@ -817,18 +861,36 @@ footer p {
     }
 
     .highlighted-events h3 {
-        font-size: 140%;
+        font-size: 135%;
     }
 
     .highlighted-events h4 {
+        font-size: 105%;
+    }
+
+    /* events details */
+    .events-details {
+        width: 100%;
+        height: 525px;
+    }
+
+    .events-details h4 {
         font-size: 110%;
+    }
+
+    .events-details img {
+        border: 0px;
+    }
+
+    .events-details p {
+        font-size: 100%;
     }
 
     .continue-spacing-alt {
         width: 0%;
     }
 
-    /* contact form */ 
+    /* contact form */
     .contact-spacing {
         width: 5%;
     }
@@ -836,15 +898,15 @@ footer p {
     #contact-form h2 {
         font-size: 205%;
     }
-    
+
     #contact-form h3 {
         font-size: 100%;
     }
-  
+
     #contact-details {
         width: 90%;
     }
-    
+
     /* footer */
     #directions {
         height: 320px
@@ -854,7 +916,7 @@ footer p {
 /* Media queries for screens 450px and smaller */
 @media screen and (max-width: 450px) {
 
-    /* header */ 
+    /* header */
     #title {
         font-size: 225%;
         letter-spacing: -4px;
@@ -869,10 +931,10 @@ footer p {
     }
 
     #hero-cover-text {
-        height: 125px; 
+        height: 125px;
     }
 
-    /* why join us? section */ 
+    /* why join us? section */
     #why-join-header {
         font-size: 225%;
     }
@@ -881,7 +943,7 @@ footer p {
         font-size: 105%;
     }
 
-    /* current events section */
+    /* events top section */
     #events-banner {
         height: 370px;
     }
@@ -899,6 +961,17 @@ footer p {
         font-size: 95%;
     }
 
+    /* events details */
+
+    .events-details {
+        height: 500px;
+    }
+
+    .events-details h3, .events-details h4 {
+        text-align: center;
+        padding-left: 0px;
+    }
+
     /* contact form */
     .contact-text {
         width: 290px;
@@ -907,12 +980,12 @@ footer p {
     .label {
         font-size: 95%;
     }
-    
-    /* footer */ 
+
+    /* footer */
     #directions {
         height: 315px;
     }
-    
+
     #directions h2 {
         font-size: 145%;
     }

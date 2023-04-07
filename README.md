@@ -1,6 +1,6 @@
-# Friends of Belvoir Forest
+# Friends of Belvoir Park
 
-Belvoir Park Forest is an large area of woodland situated within the South eastern suburbs of Belfast; this website seeks to create an online presence for 'Friends of Belvoir Forest' an imagined local conservation group based in and around this area of Belfast.
+Belvoir Park Forest is an large area of woodland situated within the South eastern suburbs of Belfast; this website seeks to create an online presence for 'Friends of Belvoir Park' an imagined local conservation group based in and around this area of Belfast.
 
 The main aims of the site are as follows:
 - to provide an appealing online presence for the group that encourages users to find out more
@@ -19,7 +19,7 @@ The main aims of the site are as follows:
   - Featured on all three pages, the title and navigation elements are placed top and centre to allow for a coherent design across the site and a convenient location to access the Home, Events and Contact pages.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Title & Navigation Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Title & Navigation Bar](assets/images/readme/title_navigation.png)
 
 - __Hero Image__
 
@@ -27,29 +27,29 @@ The main aims of the site are as follows:
   - The pan-down animation of the image draws the user's eye downwards so they will continur reading into the next section
   - The fade-in animation of the text draws attention to the ethos of the group
 
-![Home Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Home Page](assets/images/readme/hero_image.png)
 
 - __*Why Join Us?* Section__
 
   - This section will give the user more information as to what the group does and the spectrum of activities covered. 
   - The images and icons alongside each section provide visual metaphors for the user and and further encouragement to join the group.
 
-![Why Join Us?](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Why Join Us?](assets/images/readme/why_join_us.png)
 
 - __Continue Exploring section__
 
   - This section provides links to the other pages, encouraging the user to remain active on the site.
   - It provides a convenient continuation to their journey without having to scroll back up to the Navigation Bar.
 
-![Continue Exploring](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Continue Exploring](assets/images/readme/continue_exploring.png)
 
 - __The Footer__ 
 
   - The footer section includes a map and directions to Belvoir Park Forest as well as links to the group's social media sites.
   - The footer provides valuable information to the user by means of showing exactly where the group meets and how to get there. 
   - The footer also encourages the user to keep connected and become part of the community via social media.
-.
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+
+![Footer](assets/images/readme/footer.png)
 
 - __Events Page - Top__
 
@@ -57,7 +57,7 @@ The main aims of the site are as follows:
   - This section also provides the user with a link to the forest map so they can identified specific locations mentioned.
   - The specific events highlighted will be updated to keep them up-to-date and relevant for the user.
 
-![Events](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Events](assets/images/readme/events_top.png)
 
 - __Events Page - Bottom__
 
@@ -65,7 +65,7 @@ The main aims of the site are as follows:
   - As with the *Why Join Us?* section, relevant images and icons provide cues and a more visually appealing experince for the user.
   - The icons used are consistent with those in the *Why Join Us?* section to provide coherence of theme and message.
 
-![Events](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Events](assets/images/readme/events_bottom.png)
 
 - __Contact Page__
 
@@ -74,11 +74,12 @@ The main aims of the site are as follows:
   - The checkboxes allow them to specify which information they would like to recieve from the group.
   - An 'Additional Comments' textbox allows the user to provide specific questions/requests to the group.
 
-![Contact Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Contact Page](assets/images/readme/contact.png)
 
 
-### Features Left to Implement
+### Features to Implement
 
+The following are ideas which can be implemented into the site at a later time:
 - Add pages to show photos from events
 - Add
 - Reformat contact form to load message within iframe
@@ -96,7 +97,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Validator Testing 
 
-- HTML: No errors were returned when passing each html page through the official W3C HTML validator
+- HTML: No errors were returned when passing each HTML page through the official W3C HTML validator
   - [index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fndsurgenor.github.io%2Ffriends-of-belvoir-park%2Findex.html)
   - [events.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fndsurgenor.github.io%2Ffriends-of-belvoir-park%2Fevents.html)
   - [contact.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fndsurgenor.github.io%2Ffriends-of-belvoir-park%2Fcontact.html)
@@ -134,7 +135,7 @@ The live link can be found here - https://ndsurgenor.github.io/friends-of-belvoi
   - Ekaterina Bolovtsova: [be-green.jpg](https://www.pexels.com/photo/scouts-collecting-rubbish-in-a-forest-5036781/)
   - Humphrey Muleba: [be-active.jpg](https://www.pexels.com/photo/woman-and-dog-walking-at-woods-1612847/)
   - Matheus Bertelli: [be-inspired.jpg](https://www.pexels.com/photo/photo-of-man-sitting-in-front-3321796/)
-                        & [event-inspired.jpg](https://www.pexels.com/photo/photo-of-people-sitting-on-chairs-3321789/)
+      & [event-inspired.jpg](https://www.pexels.com/photo/photo-of-people-sitting-on-chairs-3321789/)
   - Michael Burrows: [event-social.jpg](https://www.pexels.com/photo/chemex-coffeemaker-with-cup-placed-on-terrace-with-metal-kettle-and-hand-grinder-7125621/)
   - PNW Production: [be-social.jpg](https://www.pexels.com/photo/people-hiking-in-a-forest-7624986/)
   - Ron Lack: [event-green.jpg](https://www.pexels.com/photo/happy-woman-doing-an-environmental-cleanup-9543745/)

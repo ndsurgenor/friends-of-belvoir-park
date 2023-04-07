@@ -1,62 +1,78 @@
 # Friends of Belvoir Forest
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
+Belvoir Park Forest is an large area of woodland situated within the South eastern suburbs of Belfast; this website seeks to create an online presence for 'Friends of Belvoir Forest' an imagined local conservation group based in and around this area of Belfast.
 
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
+The main aims of the site are as follows:
+- to provide an appealing online presence for the group that encourages users to find out more
+- to provide general info on Friends of Belvoir Park and their activities
+- to provide specific time/date information of events organised by the group
+- to provide an convenient means of contacting the group
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
 ### Existing Features
 
-- __Navigation Bar__
+- __Title & Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
+  - Featured on all three pages, the title and navigation elements are placed top and centre to allow for a coherent design across the site and a convenient location to access the Home, Events and Contact pages.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Title & Navigation Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
 
-- __The Home Page image__
+- __Hero Image__
 
-  - The home page includes an animated photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - The pan-down animation of the hero image
+  - The landing page includes animated photograph and text overlay to highlight the main seeting and ethos of 'Friends of Belvoir Park'. 
+  - The pan-down animation of the image draws the user's eye downwards so they will continur reading into the next section
+  - The fade-in animation of the text draws attention to the ethos of the group
 
 ![Home Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
 - __*Why Join Us?* Section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - This section will give the user more information as to what the group does and the spectrum of activities covered. 
+  - The images and icons alongside each section provide visual metaphors for the user and and further encouragement to join the group.
 
 ![Why Join Us?](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
-- Continue Exploring section
+- __Continue Exploring section__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - This section provides links to the other pages, encouraging the user to remain active on the site.
+  - It provides a convenient continuation to their journey without having to scroll back up to the Navigation Bar.
 
 ![Continue Exploring](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
-
+  - The footer section includes a map and directions to Belvoir Park Forest as well as links to the group's social media sites.
+  - The footer provides valuable information to the user by means of showing exactly where the group meets and how to get there. 
+  - The footer also encourages the user to keep connected and become part of the community via social media.
+.
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
-- __Events__
+- __Events Page - Top__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - This section of the page is valuable to the user as it highlights the most immediate and specific events taking place.
+  - This section also provides the user with a link to the forest map so they can identified specific locations mentioned.
+  - The specific events highlighted will be updated to keep them up-to-date and relevant for the user.
+
+![Events](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+
+- __Events Page - Bottom__
+
+  - This section of the page is valuable to the user in giving a more general overview of each month's activities.
+  - As with the *Why Join Us?* section, relevant images and icons provide cues and a more visually appealing experince for the user.
+  - The icons used are consistent with those in the *Why Join Us?* section to provide coherence of theme and message.
 
 ![Events](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
 
 - __Contact Page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - This page will allow the user to provide personal details in order to become a member of Friends of Belvoir Park.
+  - This page also allows the member to gain more information about the group.
+  - The checkboxes allow them to specify which information they would like to recieve from the group.
+  - An 'Additional Comments' textbox allows the user to provide specific questions/requests to the group.
 
 ![Contact Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 

@@ -1,6 +1,6 @@
 # Friends of Belvoir Park
 
-Belvoir Park Forest is an large area of woodland situated within the South eastern suburbs of Belfast; this website seeks to create an online presence for 'Friends of Belvoir Park' an imagined local conservation group based in and around this area of Belfast.
+Belvoir Park Forest is an large area of woodland the southern suburbs of Belfast; this website seeks to create an online presence for *Friends of Belvoir Park*, an imagined local conservation group based in and around this area of Belfast.
 
 The main aims of the site are as follows:
 - to provide an appealing online presence for the group that encourages users to find out more
@@ -9,6 +9,15 @@ The main aims of the site are as follows:
 - to provide an convenient means of contacting the group
 
 ![Responsive Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+
+## Initial Development
+
+Three user stories were created at the outset of this project to guide its initial design and provide goals for the finished project:
+- User A: as someone who is a resident of the local area, I want to know more about *Friends of Belvoir Park* (*FBP*) so I can decide if its something I want to be a part of.
+- User B: as someone who is aware of *FBP* but only at a basic level, I want to find out what specific events *FBP* run and when they're happening so I can decide what to take part in.
+- User C: as someone who is passionate about green spaces and caring for the environment, I would like to join *FBP* so I can take an active role in a ‘green community’.
+
+The intial design ideas were developed using the interactive prototyping site [Uizard.io](https://app.uizard.io/p/517cac80)
 
 ## Features 
 

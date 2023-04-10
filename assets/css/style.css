@@ -967,7 +967,8 @@ footer p {
         height: 500px;
     }
 
-    .events-details h3, .events-details h4 {
+    .events-details h3,
+    .events-details h4 {
         text-align: center;
         padding-left: 0px;
     }
@@ -987,7 +988,7 @@ footer p {
     }
 
     #directions h2 {
-        font-size: 145%;
+        font-size: 150%;
     }
 
     #directions h3 {
@@ -996,5 +997,60 @@ footer p {
 
     #directions p {
         font-size: 90%;
+    }
+}
+
+/* Media queries for screens 350px and smaller */
+@media screen and (max-width: 350px) {
+
+    /* header */
+    #title {
+        font-size: 190%;
+    }
+
+    nav {
+        font-size: 100%;
+    }
+
+    nav ul li {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    #hero-cover-text {
+        font-size: 85%;
+        height: 100px;
+    }
+
+    /* why join us? section */
+    #why-join-header {
+        font-size: 210%;
+    }
+
+    .why-join-text p {
+        font-size: 95%;
+    }
+
+    /* continue section */
+    #continue-section h2 {
+        font-size: 175%;
+    }
+
+    #continue-section p {
+        font-size: 90%;
+    }
+
+    /* footer */
+    #directions {
+        height: 325px;
+    }
+    
+    #directions p {
+        font-size: 75%;
+    }
+
+    #map iframe {
+        width: 85%;
+        margin: 10px 0px;
     }
 }

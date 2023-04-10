@@ -1075,11 +1075,28 @@ footer p {
         font-size: 95%;
     }
 
+    /* contact form */
+    #contact-form h2 {
+        font-size: 195%;
+    }
+
+    #contact-form h3 {
+        font-size: 85%;
+    }
+
+    .label {
+        font-size: 75%;
+    }
+
+    .contact-text {
+        width: 225px;
+    }
+
     /* footer */
     #directions {
         height: 325px;
     }
-    
+
     #directions p {
         font-size: 75%;
     }

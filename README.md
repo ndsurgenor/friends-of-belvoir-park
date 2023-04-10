@@ -2,13 +2,15 @@
 
 Belvoir Park Forest is an large area of woodland the southern suburbs of Belfast; this website seeks to create an online presence for *Friends of Belvoir Park*, an imagined local conservation group based in and around this area of Belfast.
 
+[LIVE LINK TO SITE](https://ndsurgenor.github.io/friends-of-belvoir-park)
+
 The main aims of the site are as follows:
 - to provide an appealing online presence for the group that encourages users to find out more
 - to provide general info on Friends of Belvoir Park and their activities
 - to provide specific time/date information of events organised by the group
 - to provide an convenient means of contacting the group
 
-![Responsive Mockup](https://ui.dev/amiresponsive?url=https://ndsurgenor.github.io/friends-of-belvoir-park/)
+![Title & Navigation Bar](assets/images/readme/overview.png)
 
 
 ## Initial Development
@@ -89,21 +91,19 @@ The intial design ideas were developed using the interactive prototyping site [U
 
 ### Features to Implement
 
-The following are ideas which can be implemented into the site at a later time:
-- Add pages to show photos from events
-- Add
-- Reformat contact form to load message within iframe
+The following are ideas which can be implemented into the site at a later time (when skillset allows):
+- Add a page (Gallery) to show the latest photos from the group's activities, including a linked preview to their Instagram account.
+- Add an embedded calendar on the Events page to show specific dates for at least one year ahead.
 
-## Testing 
+## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+- This site has been tested for responsiveness across different screen sizes both by utilizing Google Chrome's developer tools. The following link provides a [Responsive Preview](https://ui.dev/amiresponsive?url=https://ndsurgenor.github.io/friends-of-belvoir-park/) of various screen sizes.
+- This site has been tested for responsiveness in 'real-world' contexts by viewing the site on widescreen desktop and laptop setups, medium-screen tablets, and smaller-screen smartphone devices.
+- This site has also been tested for responsiveness on various browsers including Chrome, Firefox, Edge and Safari.
+- Navigational links have been tested to ensure that they direct to the correct page and in the case of external links that they open in a new tab.
+- Paragraph text and any accompanying images have been tested to ensure they reorder correctly at various screen sizes.
+- The Contact page form has been tested to ensure certain that required fields are provided when the submit button is clicked.
+- The Email field within the form has been tested to ensure that an email address is provided (i.e. the text includes an @ symbol) when the submit button is clicked.
 
 ### Validator Testing 
 
@@ -115,17 +115,17 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+-  In the Contact form, at least one checkbox should be required before the form is submitted; however, giving a checkbox the attribute 'required' causes the browser to require that particular box and not just any within the same group, when the submit button is clicked. Searching online suggests that this issue is resolved using a JavaScript query so this bug can be fixed once my skillset allows.
 
 ## Deployment
 
-The live link can be found here - https://ndsurgenor.github.io/friends-of-belvoir-park 
+The live link can be found here: https://ndsurgenor.github.io/friends-of-belvoir-park 
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab (top right)
-  - From the options in the lefthand side menu, select GitHub pages
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+  - From the options in the lefthand side menu, select Pages
+  - From the Branch section drop-down menus, select 'main' and '/root' then click 'Save'
+  - The page will be automatically refreshed (after a short period) to indicate the successful deployment.
 
 ## Credits 
 

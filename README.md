@@ -8,7 +8,8 @@ The main aims of the site are as follows:
 - to provide specific time/date information of events organised by the group
 - to provide an convenient means of contacting the group
 
-![Responsive Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive Mockup](https://ui.dev/amiresponsive?url=https://ndsurgenor.github.io/friends-of-belvoir-park/)
+
 
 ## Initial Development
 

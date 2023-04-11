@@ -85,6 +85,7 @@ The intial design ideas were developed using the interactive prototyping site [U
   - This page also allows the member to gain more information about the group.
   - The checkboxes allow them to specify which information they would like to recieve from the group.
   - An 'Additional Comments' textbox allows the user to provide specific questions/requests to the group.
+  - A confirmation message displays when the form submission is successful, before returning the user to the home page.
 
 ![Contact Page](assets/images/readme/contact.png)
 
@@ -111,7 +112,12 @@ The following are ideas which can be implemented into the site at a later time (
   - [index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fndsurgenor.github.io%2Ffriends-of-belvoir-park%2Findex.html)
   - [events.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fndsurgenor.github.io%2Ffriends-of-belvoir-park%2Fevents.html)
   - [contact.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fndsurgenor.github.io%2Ffriends-of-belvoir-park%2Fcontact.html)
+  - [confirmation.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fndsurgenor.github.io%2Ffriends-of-belvoir-park%2Fconfirmation.html)
 - CSS: No errors were found when passing style.css through the official [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fndsurgenor.github.io%2Ffriends-of-belvoir-park%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+### Fixed Bugs
+
+- The *Why Join Us?* section of index.html did not intially show content in the correct order when using smaller screen sizes. This was solved by reordering the content within the code then floating the contents right as well using a series of nested divs.
 
 ### Unfixed Bugs
 

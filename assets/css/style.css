@@ -9,6 +9,7 @@
 }
 
 body,
+.contact-text,
 #submit-button {
     font-family: Poppins, sans-serif;
     font-weight: 300;
@@ -348,7 +349,7 @@ nav ul li {
     padding-top: 10px;
 }
 
-/* events details layout */
+/* events bottom section layout */
 
 .events-details {
     width: 25%;
@@ -363,7 +364,7 @@ nav ul li {
     padding-top: 5px;
 }
 
-/* events details text elements */
+/* events bottom section elements */
 
 #events-details hr {
     border-bottom: 2px solid #707e4e;
@@ -444,6 +445,7 @@ nav ul li {
     margin-bottom: 10px;
     border: 1px solid #707e4e;
     border-radius: 5px;
+    padding-left: 5px;
 }
 
 .contact-brackets {
@@ -463,6 +465,7 @@ nav ul li {
 
 #comments {
     height: 100px;
+    resize: none;
 }
 
 #submit-button {

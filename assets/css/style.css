@@ -480,6 +480,19 @@ nav ul li {
     border: 1px solid #707e4e;
 }
 
+/*CONFIRMATION PAGE*/
+
+#confirmation h2 {
+    color: #35503b;
+    font-size: 175%;
+    padding: 25px 20px 10px;
+}
+
+#confirmation p {
+    font-size: 110%;
+    padding: 0px 20px;
+}
+
 /* FOOTER */
 /* footer layout*/
 

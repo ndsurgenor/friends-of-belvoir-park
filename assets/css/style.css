@@ -456,7 +456,7 @@ nav ul li {
 
 #contact-form li {
     list-style: none;
-    display: -ms-inline-grid;
+    display: inline-block;
 }
 
 .checkbox {
@@ -737,6 +737,10 @@ footer p {
 
     #contact-image {
         width: 0%;
+    }
+
+    #contact-form li {
+        display: block;
     }
 
     .checkbox {

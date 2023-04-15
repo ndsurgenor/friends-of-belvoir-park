@@ -130,7 +130,8 @@ The following are ideas which can be implemented into the site at a later time (
 
 ### Unfixed Bugs
 
--  In the Contact form, at least one checkbox should be required before the form is submitted; however, giving a checkbox the attribute 'required' causes the browser to require that particular box and not just any within the same group, when the submit button is clicked. Searching online suggests that this issue is resolved using a JavaScript query so this bug can be fixed once my skillset allows.
+- In the Contact form, checkboxes are sometimes they displaying in a staggered manner for screens 900px and above, depending on the browser and version used. The staggered layout can be corrected using the 'display' attribute, but this creates a new layout problem for those screens where there was none before in that checkbox options overlap with one another rendering them unreadable. As such, the former of these layouts has been chosen as the better outcome of said problem. 
+- Also regarding checkboxes, at least one checkbox should be required before the form is submitted; however, giving a checkbox the attribute 'required' causes the browser to require that particular box and not just any within the same group, when the submit button is clicked. Searching online suggests that this issue is resolved using a JavaScript query so this bug can be fixed once my skillset allows.
 
 ## Deployment
 

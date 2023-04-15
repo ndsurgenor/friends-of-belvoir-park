@@ -456,6 +456,7 @@ nav ul li {
 
 #contact-form li {
     list-style: none;
+    display: -ms-inline-grid;
 }
 
 .checkbox {

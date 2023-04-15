@@ -247,13 +247,15 @@ nav ul li {
     padding: 0px 50px;
 }
 
-#continue-section a {
+#continue-section a,
+#confirmation a {
     color: #35503b;
     font-weight: bold;
     text-decoration: underline;
 }
 
-#continue-section a:hover {
+#continue-section a:hover,
+#confirmation a:hover {
     color: #f5f5f5;
     background-color: #707e4e;
     text-decoration: none;

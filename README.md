@@ -89,6 +89,15 @@ The intial design ideas were developed using the interactive prototyping site [U
 
 ![Contact Page](assets/images/readme/contact.png)
 
+- __Confirmation Page__
+
+  - This page only displays in the event that the user succefully submits info via the Contact form.
+  - This page acts as feedback that the information has been received sucessfully.
+  - After 10 seconds of disply the user will be returned to the Home page
+  - If the auto-refresh feature fails to initialise the user can click a link to return to the Home page
+
+![Confirmation Page](assets/images/readme/confirmation.png)
+
 
 ### Features to Implement
 
@@ -143,6 +152,7 @@ The live link can be found here: https://ndsurgenor.github.io/friends-of-belvoir
 - The map in the footer is displayed using adapted embed code from [Google Maps](https://goo.gl/maps/7sfANXM9UZmFgrss6)
   and this link was shortened using [TinyURL](https://tinyurl.com/app)
 - The map on the Events page is produced and distrubuted by [NI Direct](https://www.nidirect.gov.uk/publications/northern-ireland-public-forests-trail-maps)
+- Auto-refresh code on Confirmation message provided by [Graeme Taylor](https://github.com/G-Taylor) 
 - README.md file adapted from the Code Institute README.md template
 
 ### Media

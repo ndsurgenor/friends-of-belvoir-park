@@ -1,12 +1,12 @@
 # Friends of Belvoir Park
 
-Belvoir Park Forest is an large area of woodland the southern suburbs of Belfast; this website seeks to create an online presence for *Friends of Belvoir Park*, an imagined local conservation group based in and around this area of Belfast.
+Belvoir Park Forest is an large area of woodland in the southern suburbs of Belfast; this website seeks to create an online presence for *Friends of Belvoir Park*, an imagined local conservation group based in and around this area of Belfast.
 
 [LIVE LINK TO SITE](https://ndsurgenor.github.io/friends-of-belvoir-park)
 
 The main aims of the site are as follows:
-- to provide an appealing online presence for the group that encourages users to find out more
-- to provide general info on Friends of Belvoir Park and their activities
+- to provide an appealing online presence that encourages users to find out more
+- to provide general info on *Friends of Belvoir Park* and their activities
 - to provide specific time/date information of events organised by the group
 - to provide an convenient means of contacting the group
 
@@ -20,7 +20,7 @@ Three user stories were created at the outset of this project to guide its initi
 - User B: as someone who is aware of *FBP* but only at a basic level, I want to find out what specific events *FBP* run and when they're happening so I can decide what to take part in.
 - User C: as someone who is passionate about green spaces and caring for the environment, I would like to join *FBP* so I can take an active role in a ‘green community’.
 
-The intial design ideas were developed using the interactive prototyping site [Uizard.io](https://app.uizard.io/p/517cac80)
+The intial design ideas were developed using interactive prototyping site [Uizard.io](https://app.uizard.io/p/517cac80) and can be viewed by following the link.
 
 ## Features 
 
@@ -35,8 +35,8 @@ The intial design ideas were developed using the interactive prototyping site [U
 
 - __Hero Image__
 
-  - The landing page includes animated photograph and text overlay to highlight the main seeting and ethos of 'Friends of Belvoir Park'. 
-  - The pan-down animation of the image draws the user's eye downwards so they will continur reading into the next section
+  - The landing page includes an animated photograph and text overlay to highlight the main setting and ethos of *Friends of Belvoir Park*. 
+  - The pan-down animation of the image draws the user's eye downwards so they will continue reading into the next section
   - The fade-in animation of the text draws attention to the ethos of the group
 
 ![Home Page](assets/images/readme/hero_image.png)
@@ -81,7 +81,7 @@ The intial design ideas were developed using the interactive prototyping site [U
 
 - __Contact Page__
 
-  - This page will allow the user to provide personal details in order to become a member of Friends of Belvoir Park.
+  - This page will allow the user to provide personal details in order to become a member of *Friends of Belvoir Park*.
   - This page also allows the member to gain more information about the group.
   - The checkboxes allow them to specify which information they would like to recieve from the group.
   - An 'Additional Comments' textbox allows the user to provide specific questions/requests to the group.
@@ -93,7 +93,7 @@ The intial design ideas were developed using the interactive prototyping site [U
 
   - This page only displays in the event that the user succefully submits info via the Contact form.
   - This page acts as feedback that the information has been received sucessfully.
-  - After 10 seconds of disply the user will be returned to the Home page
+  - After 10 seconds of display the user will be returned to the Home page
   - If the auto-refresh feature fails to initialise the user can click a link to return to the Home page
 
 ![Confirmation Page](assets/images/readme/confirmation.png)
@@ -107,12 +107,12 @@ The following are ideas which can be implemented into the site at a later time (
 
 ## Testing
 
-- This site has been tested for responsiveness across different screen sizes both by utilizing Google Chrome's developer tools. The following link provides a [Responsive Preview](https://ui.dev/amiresponsive?url=https://ndsurgenor.github.io/friends-of-belvoir-park/) of various screen sizes.
+- This site has been tested for responsiveness across different screen sizes by utilizing Google Chrome's developer tools. The following link provides a [Responsive Preview](https://ui.dev/amiresponsive?url=https://ndsurgenor.github.io/friends-of-belvoir-park/) of various screen sizes.
 - This site has been tested for responsiveness in 'real-world' contexts by viewing the site on widescreen desktop and laptop setups, medium-screen tablets, and smaller-screen smartphone devices.
 - This site has also been tested for responsiveness on various browsers including Chrome, Firefox, Edge and Safari.
-- Navigational links have been tested to ensure that they direct to the correct page and in the case of external links that they open in a new tab.
-- Paragraph text and any accompanying images have been tested to ensure they reorder correctly at various screen sizes.
-- The Contact page form has been tested to ensure certain that required fields are provided when the submit button is clicked.
+- Navigational links have been tested to ensure that they direct to the correct page, and in the case of external links that they open in a new tab.
+- Paragraph text and any accompanying images have been tested to ensure that they resize/reorder correctly at various screen sizes.
+- The Contact page form has been tested to ensure that required fields are complete when the submit button is clicked.
 - The Email field within the form has been tested to ensure that an email address is provided (i.e. the text includes an @ symbol) when the submit button is clicked.
 
 ### Validator Testing 
@@ -122,7 +122,7 @@ The following are ideas which can be implemented into the site at a later time (
   - [events.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fndsurgenor.github.io%2Ffriends-of-belvoir-park%2Fevents.html)
   - [contact.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fndsurgenor.github.io%2Ffriends-of-belvoir-park%2Fcontact.html)
   - [confirmation.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fndsurgenor.github.io%2Ffriends-of-belvoir-park%2Fconfirmation.html)
-- CSS: No errors were found when passing style.css through the official [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fndsurgenor.github.io%2Ffriends-of-belvoir-park%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- CSS: No errors were found when passing 'style.css' through the official [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fndsurgenor.github.io%2Ffriends-of-belvoir-park%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 - Accessibility: A high accessibility score of 97/100 was confirmed using Lighthouse in Chrome Developer Tools for both mobile and desktop sites.
 
   ![Accessibility Report](assets/images/readme/lighthouse.png)
@@ -133,14 +133,14 @@ The following are ideas which can be implemented into the site at a later time (
 
 ### Unfixed Bugs
 
-- In the Contact form, checkboxes are sometimes they displaying in a staggered manner for screens 900px and above, depending on the browser and version used. The staggered layout can be corrected using the 'display' attribute, but this creates a new layout problem for those screens where there was none before in that checkbox options overlap with one another rendering them unreadable. As such, the former of these layouts has been chosen as the better outcome of said problem. 
-- Also regarding checkboxes, at least one checkbox should be required before the form is submitted; however, giving a checkbox the attribute 'required' causes the browser to require that particular box and not just any within the same group, when the submit button is clicked. Searching online suggests that this issue is resolved using a JavaScript query so this bug can be fixed once my skillset allows.
+- In the Contact form, checkboxes sometimes display in a staggered manner for screens 900px and above, depending on the browser and version used. The staggered layout can be corrected using the 'display' attribute, but this creates a new layout problem for those screens where there was none before; specifically, checkbox options overlap with one another rendering them unreadable. As such, the former of these layouts has been chosen as the better outcome of said problem. 
+- Also regarding checkboxes, at least one checkbox should be required before the form is submitted; however, giving a checkbox the attribute 'required' causes the browser to require that one particular box and not just any within the same group. Searching online suggests that this issue is resolved using a JavaScript query so this bug can be fixed once my skillset allows.
 
 ## Deployment
 
-The live link can be found here: https://ndsurgenor.github.io/friends-of-belvoir-park 
+A live link to the site can be found here: https://ndsurgenor.github.io/friends-of-belvoir-park 
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+- This site was deployed to GitHub pages. Steps for deployment are as follows: 
   - In the GitHub repository, navigate to the Settings tab (top right)
   - From the options in the lefthand side menu, select Pages
   - From the Branch section drop-down menus, select 'main' and '/root' then click 'Save'
